@@ -1,0 +1,134 @@
+.projectsFrameChild {
+  width: 1851px;
+  height: 1324px;
+  position: relative;
+  background-color: var(--color-gray-200);
+  display: none;
+  max-width: 100%;
+}
+.projects {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 40px;
+  font-weight: 600;
+  font-family: inherit;
+  z-index: 2;
+}
+.projectImg1Icon,
+.projectImg2Icon {
+  height: 351px;
+  width: 479px;
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+}
+.projectImg2Icon {
+  width: 478px;
+}
+.projectImg1Icon1,
+.projectImg2Icon1,
+.projectImg3Icon,
+.projectImg3Icon1 {
+  height: 351px;
+  width: 479px;
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+}
+.projectImg2Icon1,
+.projectImg3Icon1 {
+  width: 478px;
+}
+.projectImg3Icon1 {
+  width: 479px;
+}
+.contactimgFrame {
+  width: 1525px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 122px 38.85px;
+  min-height: 824px;
+  max-width: 100%;
+}
+.projectsFrame {
+  width: 1851px;
+  background-color: var(--color-gray-200);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-122xl) var(--padding-5xl) var(--padding-184xl)
+    var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-97xl);
+  max-width: 103%;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.macbookPro161Inner,
+.projectsFrameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.projectsFrameWrapper {
+  width: 1789px;
+  justify-content: flex-start;
+  padding: 0;
+  max-width: 104%;
+}
+.macbookPro161Inner {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-27xl) 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-39xl);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 1200px) {
+  .projectsFrame {
+    padding-top: var(--padding-73xl);
+    padding-bottom: var(--padding-113xl);
+    box-sizing: border-box;
+  }
+  .macbookPro161Inner {
+    padding-bottom: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .projects {
+    font-size: var(--font-size-27xl);
+    line-height: 32px;
+  }
+  .contactimgFrame {
+    gap: 122px 38.85px;
+  }
+  .projectsFrame {
+    gap: var(--gap-97xl);
+    padding-top: var(--padding-41xl);
+    padding-bottom: var(--padding-67xl);
+    box-sizing: border-box;
+  }
+  .macbookPro161Inner {
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .projects {
+    font-size: var(--font-size-16xl);
+    line-height: 24px;
+  }
+  .projectsFrame {
+    gap: var(--gap-97xl);
+  }
+}

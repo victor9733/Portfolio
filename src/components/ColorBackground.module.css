@@ -1,0 +1,238 @@
+.contactImg1Icon {
+  align-self: stretch;
+  height: 620px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.contactImage {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-4xl);
+  box-sizing: border-box;
+  min-width: 538px;
+  max-width: 100%;
+}
+.inputFieldsFrame {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-31xl);
+  background: linear-gradient(
+    213.36deg,
+    rgba(174, 93, 93, 0.53),
+    rgba(127, 100, 184, 0.53)
+  );
+  filter: blur(2px);
+  z-index: 3;
+}
+.contact,
+.gerInTouch {
+  position: relative;
+  line-height: 40px;
+  font-weight: 600;
+  z-index: 4;
+}
+.contact {
+  margin: 0;
+  font-size: var(--font-size-39xl);
+  font-family: inherit;
+  color: var(--color-white);
+}
+.whatYouWantText,
+.yourNameFrame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.whatYouWantText {
+  flex-direction: column;
+  gap: var(--gap-4xl);
+}
+.yourNameFrame {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-5xs) var(--padding-12xl);
+}
+.yourMessage {
+  position: relative;
+  line-height: 40px;
+  font-weight: 600;
+}
+.yourEmailField,
+.yourNameMessage,
+.yourNameMessageChild {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.yourNameMessageChild {
+  border: 3px solid var(--color-white);
+  background-color: var(--color-lightslategray);
+  height: 306px;
+  width: auto;
+  outline: 0;
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: var(--padding-4xl) var(--padding-14xl);
+  font-family: var(--font-montserrat);
+  font-weight: 600;
+  font-size: var(--font-size-7xl);
+  color: var(--color-silver-200);
+}
+.yourEmailField,
+.yourNameMessage {
+  flex-direction: column;
+  gap: var(--gap-2xs);
+}
+.yourEmailField {
+  padding: 0 var(--padding-5xs);
+  box-sizing: border-box;
+  gap: var(--gap-12xl);
+  max-width: 100%;
+  z-index: 4;
+  color: var(--foundation-white-light);
+}
+.send {
+  position: relative;
+  font-size: var(--font-size-10xl-9);
+  line-height: 20.63px;
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+  color: var(--color-white);
+  text-align: left;
+}
+.rectangleShape {
+  cursor: pointer;
+  border: 1px solid var(--color-whitesmoke);
+  padding: var(--padding-xs) var(--padding-4xl) var(--padding-xs)
+    var(--padding-3xl);
+  background-color: var(--color-purple);
+  width: 127px;
+  border-radius: var(--br-21xl);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 4;
+}
+.rectangleShape:hover {
+  background-color: var(--color-mediumpurple);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+}
+.footerCopyright,
+.particlesBackdrop {
+  display: flex;
+  justify-content: flex-start;
+}
+.footerCopyright {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-5xs);
+}
+.particlesBackdrop {
+  width: 680px;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-22xl) var(--padding-22xl) var(--padding-35xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-23xl);
+  min-width: 680px;
+  max-width: 100%;
+}
+.colorBackground,
+.contactFormFrame {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.contactFormFrame {
+  width: 1567px;
+  align-items: center;
+  gap: var(--gap-41xl);
+}
+.colorBackground {
+  width: 1660px;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-7xl);
+  color: var(--color-silver-200);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 1500px) {
+  .particlesBackdrop {
+    flex: 1;
+  }
+  .contactFormFrame {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .particlesBackdrop {
+    padding-top: var(--padding-8xl);
+    padding-bottom: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .contactImage {
+    min-width: 100%;
+  }
+  .contact {
+    font-size: var(--font-size-27xl);
+    line-height: 32px;
+  }
+  .yourEmailField {
+    gap: var(--gap-12xl);
+  }
+  .particlesBackdrop {
+    gap: var(--gap-23xl);
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-4xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .contactFormFrame {
+    gap: var(--gap-41xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .gerInTouch {
+    font-size: var(--font-size-2xl);
+    line-height: 32px;
+  }
+  .contact {
+    font-size: var(--font-size-16xl);
+    line-height: 24px;
+  }
+  .yourMessage {
+    font-size: var(--font-size-2xl);
+    line-height: 32px;
+  }
+  .send {
+    font-size: var(--font-size-5xl);
+    line-height: 17px;
+  }
+}

@@ -1,0 +1,73 @@
+.macbookPro161Child {
+  width: 318px;
+  height: 334px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 1563px;
+  left: -101px;
+  z-index: 2;
+}
+.frameChild {
+  position: absolute;
+  top: 244px;
+  left: 315px;
+  background-color: var(--foundation-purple2-darker);
+  width: 2207px;
+  height: 666px;
+}
+.colorSharp1Icon,
+.particleSvgrepoCom1Icon {
+  position: absolute;
+  top: 0;
+  left: 563px;
+  width: 629px;
+  height: 862px;
+  object-fit: contain;
+  z-index: 3;
+}
+.particleSvgrepoCom1Icon {
+  top: 662px;
+  left: 0;
+  width: 868px;
+  height: 868px;
+  overflow: hidden;
+  z-index: 5;
+}
+.frameItem {
+  position: absolute;
+  top: 887px;
+  left: 2065px;
+  width: 318px;
+  height: 334px;
+  z-index: 2;
+}
+.rectangleParent {
+  width: 2522px;
+  height: 1530px;
+  position: absolute;
+  margin: 0 !important;
+  top: 885px;
+  left: -600px;
+}
+.macbookPro161 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-78xl);
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .macbookPro161 {
+    gap: var(--gap-78xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .macbookPro161 {
+    gap: var(--gap-78xl);
+  }
+}

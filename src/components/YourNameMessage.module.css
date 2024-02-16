@@ -1,0 +1,64 @@
+.yourName {
+  position: relative;
+  line-height: 40px;
+  font-weight: 600;
+}
+.frameChild {
+  height: 86px;
+  width: 582px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-lightslategray);
+  border: 3px solid var(--color-white);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.whatsYouName {
+  width: 249px;
+  border: 0;
+  outline: 0;
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-7xl);
+  background-color: transparent;
+  height: 40px;
+  position: relative;
+  line-height: 40px;
+  color: var(--color-silver-200);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.rectangleParent,
+.yourNameMessage {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangleParent {
+  border-radius: var(--br-xl);
+  background-color: var(--color-lightslategray);
+  border: 3px solid var(--color-white);
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-4xl) var(--padding-14xl);
+}
+.yourNameMessage {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-2xs);
+  text-align: left;
+  font-size: var(--font-size-7xl);
+  color: var(--foundation-white-light);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 450px) {
+  .whatsYouName,
+  .yourName {
+    font-size: var(--font-size-2xl);
+    line-height: 32px;
+  }
+}
